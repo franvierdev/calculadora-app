@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div >
-        <form name="calculadora" onSubmit={handleSubmit} className='bg-blue-950 border-e-4 border-b-4 border-black  p-2 rounded-xl max-w-xs m-auto  '>
+        <form name="calculadora" onSubmit={handleSubmit} className='bg-blue-950 border-e-8 border-b-8 border-black  p-2 rounded-xl max-w-xs m-auto  '>
           <div>
             <input className='bg-gray-900 rounded-xl col-span-full text-right text-white text-xl py-5 pr-5 overflow-hidden border-s-4 border-t-4 border-gray-950' type="text" value={count} onChange={(e) => { setCount(e.target.value) }} />
           </div>
